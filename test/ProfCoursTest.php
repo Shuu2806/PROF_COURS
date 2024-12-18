@@ -182,7 +182,7 @@ class ProfCoursTest extends TestCase
         $expected = count(self::$cours_a);
         $num_records = Cours::count($conn);
         $this->assertEquals($expected, $num_records, "Enregistrement des cours ...\n");
-        $this->assertCount($num_records, self::$prof_a, "Enregistrement des cours ...\n");
+        $this->assertCount($num_records, self::$cours_a, "Enregistrement des cours ...\n");
 
         /**
          *
