@@ -5,7 +5,6 @@ use Cours;
 use PHPUnit\Framework\TestCase;
 use Prof;
 
-
 class ProfCoursTest extends TestCase
 {
 
